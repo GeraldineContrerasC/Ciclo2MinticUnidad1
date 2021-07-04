@@ -8,6 +8,7 @@ public class Junio29c {
         int resultado = calcularDigitos(numero);
         System.out.println(resultado);
         System.out.println(":)");
+        System.out.println(":(");
     }
 
     public static int calcularDigitos (int numero){
