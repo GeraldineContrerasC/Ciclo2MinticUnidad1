@@ -7,6 +7,7 @@ public class Junio29c {
         int numero = scanner.nextInt();
         int resultado = calcularDigitos(numero);
         System.out.println(resultado);
+        System.out.println(":)");
     }
 
     public static int calcularDigitos (int numero){
@@ -15,7 +16,9 @@ public class Junio29c {
             numero /= 10;
             cifras ++;
         }   
+
         return cifras;
+
     }
 
 }
